@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpQaDrupalCheck\QA\Tools\Analyzer;
+namespace PhpQaDrupalCheck\Tools\Analyzer;
 
 use DrupalCheck\Application;
 use Edge\QA\OutputMode;
