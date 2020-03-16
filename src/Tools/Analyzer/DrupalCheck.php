@@ -29,7 +29,7 @@ class DrupalCheck extends \Edge\QA\Tools\Tool
         $args = [
           'drupal-root' => !empty($drupalRoot) ? $drupalRoot : 'web',
           'memory-limit' => $this->config->value('drupal-check.memoryLimit'),
-          'format' => !empty($format) ? $format : 'checkstyle',
+          'format' => !empty($format) ? $format : 'table',
         ];
 
         foreach (['analysis', 'style', 'deprecation'] as $check) {
