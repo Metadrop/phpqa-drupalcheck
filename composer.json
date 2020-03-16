@@ -1,0 +1,19 @@
+{
+    "name": "metadrop/phpqa-drupalcheck",
+    "description": "Use drupal check for your phpqa configuration.",
+    "type": "library",
+    "require": {
+        "edgedesign/phpqa": "~1.23",
+        "mglaman/drupal-check": "~1.0"
+    },
+    "authors": [
+        {
+            "name": "Omar",
+            "email": "omar.lopesino@metadrop.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"PhpQaDrupalCheck\\": "src/"}
+    }
+}
